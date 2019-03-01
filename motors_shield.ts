@@ -1,7 +1,7 @@
 /**
- * Librairie A4 technologie pour robot <nom du robot>.
+ * Librairie A4 technologie pour robot Codo.
  */
-//% weight=999 color=#004696 icon="\uf121" block="A4 Technologie v2" advanced=false
+//% weight=999 color=#004696 icon="\uf121" block="CODO" advanced=false
 namespace A4_Robot_Driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
@@ -55,7 +55,7 @@ namespace A4_Robot_Driver {
      * @param speed vitesse en pourcentage du moteur
      */
     //% blockId=A4_Robot_Driver_Robot_Move
-    //% block="<Nom du robot> %dir| vitesse %speed"
+    //% block="Codo %dir| vitesse %speed"
     //% speed.min=0 speed.max=100
     //% parts="A4_Robot_Driver" advanced=false
     //% speed.defl=75
