@@ -56,7 +56,7 @@ namespace A4_Robot_Driver {
      */
     //% blockId=A4_Robot_Driver_Robot_Move
     //% block="Codo %dir| vitesse %speed"
-    //% speed.min=0 speed.max=100
+    //% speed.shadow="speedPicker"
     //% parts="A4_Robot_Driver" advanced=false
     //% speed.defl=75
     export function robotMove(dir: RobotDirection, speed: number): void {
