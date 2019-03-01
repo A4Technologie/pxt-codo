@@ -1,7 +1,7 @@
 /**
  * Librairie A4 technologie pour robot Codo.
  */
-//% weight=999 color=#004696 icon="" block="CODO" advanced=false
+//% weight=20 color=#004696 icon="" block="CODO" advanced=false
 namespace A4_Robot_Driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
