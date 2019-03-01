@@ -1,7 +1,7 @@
 /**
  * Librairie A4 technologie pour robot Codo.
  */
-//% weight=999 color=#004696 icon="\uf121" block="CODO" advanced=false
+//% weight=999 color=#004696 icon="" block="CODO" advanced=false
 namespace A4_Robot_Driver {
 	/************************************************************************************************************************************************
 	* micro:bit motor driver blocks 
@@ -121,7 +121,7 @@ namespace A4_Robot_Driver {
      * @param pin choix du moteur: droit ou gauche
      */
     //% blockId=A4_Robot_Driver_servo_degrees
-    //% block="positionner le servo sur |%pin| à |%angle| degrés"
+    //% block="Positionner le servo sur |%pin| à |%angle| degrés"
     //% parts="A4_Robot_Driver" advanced=false
     //% angle.shadow="protractorPicker"
     //% angle.defl=90
