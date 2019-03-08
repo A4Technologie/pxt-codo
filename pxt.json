@@ -1,7 +1,7 @@
 {
-    "name": "A4-Technologie-Extension",
-    "version": "0.0.1",
-    "description": "BLAihdfjklzafzehfjk",
+    "name": "CODO-Extension",
+    "version": "1.0.0",
+    "description": "Extension for CODO robot",
     "license": "MIT",
     "dependencies": {
         "core": "*"
