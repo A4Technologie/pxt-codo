@@ -48,7 +48,7 @@ namespace A4_Robot_Driver {
     export let _speed_right = 700;
     export let _dir_right = 1; //0 = arrêt, 1 = avancer, 2 = reculer
     export let _dir_left = 1;
-
+    let distanceBackup: number = 0;
     /**
      * Permet de controler les déplacements et la vitesse du robot
      * @param dir sens de déplacement du robot
@@ -112,6 +112,9 @@ namespace A4_Robot_Driver {
         duration = pins.pulseIn(name, PulseValue.High, 50000); // Max duration 50 ms - receive echo
         distance = duration * 153 / 29 / 2 / 100;
       //  Math.constrain(distance, 0, 500);
+	if(RangeInCentimeters > 0) distanceBackup = RangeInCentimeters;
+        else RangeInCentimeters = distanceBackup;
+	    
         basic.pause(50);
         return distance;
     }
