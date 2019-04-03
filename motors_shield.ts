@@ -111,8 +111,8 @@ namespace A4_Robot_Driver {
         pins.digitalWritePin(name, 0);
         duration = pins.pulseIn(name, PulseValue.High, 50000); // Max duration 50 ms - receive echo
         distance = duration * 153 / 29 / 2 / 100;
-        Math.constrain(distance, 0, 500);
-        //basic.pause(50);
+      //  Math.constrain(distance, 0, 500);
+        basic.pause(50);
         return distance;
     }
 
